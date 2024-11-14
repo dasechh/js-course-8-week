@@ -7,6 +7,7 @@
     "clean": "rimraf ./dist",
     "dev": "npm run clean && vite",
     "test": "vitest",
+    "prebuild": "npm run test",
     "build": "npm run clean && vite build"
   },
   "author": "kosarev",
